@@ -1,0 +1,281 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% Yisong Yue's resume
+%%   - based off work by Michael DeCorte 
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%
+%% The following code sets up the document formatting
+%%
+
+%this assumes that res_yy.sty is in some path
+\documentstyle[hyperref, margin, line]{res_yy}
+
+\hypersetup{backref,pdfpagemode=Full,colorlinks=true,backref}
+
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\voffset}{-0.30in}
+\addtolength{\textwidth}{1.00in} \addtolength{\textheight}{1.50in}
+
+\renewcommand{\namefont}{\LARGE\emph}
+
+
+
+%%
+%% The following code defines some macros for terms which have raised font
+%% (ie 4\fourth would result 4th with the 'th' raised (superscripted)
+%%
+
+\def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
+\def\CSharp{{\rm C\raise.5ex\hbox{\small \#}}}
+% 'st' 'nd' 'rd' 'th' superscripts for numbers
+\def\first{{\raise.5ex\hbox{\small st}}}
+\def\second{{\raise.5ex\hbox{\small nd}}}
+\def\third{{\raise.5ex\hbox{\small rd}}}
+\def\fourth{{\raise.5ex\hbox{\small th}}}
+
+
+
+%%
+%% starting the actual document
+%%
+
+\begin{document}
+
+%the name in big fonts at the top of resume
+%this is left aligned
+\name{Kevin Ji}
+
+%this is right aligned
+\address{6534 Old Chesterbrook Rd.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ kwji@email.wm.edu}
+\address{McLean, VA 22101\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (571) 215-8708}
+
+\begin{resume}
+
+%%
+%% This section of code is inelegant, but I'm too lazy to fix it
+%%
+
+%\section{\textsc{Objective}}
+%To gain real world experience in Computer Science via a summer internship. 
+
+\section{\textsc{Education}}
+
+\textbf{College of William and Mary} \hfill Graduation: May 2013 \\
+Bachelor of Science, Computer Science \hfill Cumulative GPA: 3.54 \\
+Majors: Computer Science and Mathematics \hfill Major GPA: 3.74
+
+
+
+
+%%
+%% the meat of the resume starts now
+%%
+
+\begin{formatb}
+  \employer{l}\title{r}\\
+  \location{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\section{\textsc{Work Experience}}
+
+\employer{\textbf{Technical Consultant}}
+\title{June 2013 -- Present}
+\location{\emph{CGI Federal}}
+\dates{Herndon, VA}
+\begin{position}
+\vspace{-10pt}
+\begin{itemize}\setlength{\itemsep}{-0.5mm}
+\item[$\circ$] Worked as a software developer implementing the Federally Facilitated Marketplace.
+\item[$\circ$] Focused on defect resolution and improving system performance in the plan compare application. Work included efforts which improved system response time from over 12 seconds to less than 500 milliseconds.
+\item[$\circ$] Worked extensively with J2EE, XQuery and the MarkLogic NoSQL database system.
+\end{itemize}
+%Assist students in introductory computer science courses. Role is to build confidence and teach problem solving skills, rather than solve problems for students. 
+\end{position}
+
+\employer{\textbf{Computer Science Lab Consultant}}
+\title{Fall 2011 -- Fall 2012}
+\location{\emph{College of William and Mary Computer Science Department}}
+\dates{Williamsburg, VA}
+\begin{position}
+\vspace{-10pt}
+\begin{itemize}\setlength{\itemsep}{-0.5mm}
+\item[$\circ$] Assisted students in introductory computer science courses. 
+\item[$\circ$] Facilitated confidence building and taught problem solving skills to students. 
+\item[$\circ$] Reinforced fundamental programming skills and data structures, Unix commands.
+\item[$\circ$] Required thorough experience with Java and Python.
+\end{itemize}
+%Assist students in introductory computer science courses. Role is to build confidence and teach problem solving skills, rather than solve problems for students. 
+\end{position}
+
+\employer{\textbf{Technical Consultant (Intern)}}
+\title{Summer 2012}
+\location{\emph{CGI Federal}}
+\dates{Fairfax, VA}
+\begin{position}
+\vspace{-10pt}
+\begin{itemize}\setlength{\itemsep}{-0.5mm}
+\item[$\circ$] Picked up debugging and development of the Medicare.gov Hospital Compare tool's Downloadable Database component for the project's July release. Corrected more than 20 critical defects in the Downloadable Database component for the July release.
+\item[$\circ$] Helped to correct several data related defects in the Medicare.gov Hospital Compare and Nuring Home Compare tools.
+\item[$\circ$] Developed a Python script for regression testing new data sets against the production data sets. This was a new idea that the team plans to expand on and apply to other projects.
+\end{itemize}
+%Aid students having difficulty in the subject. Focus on both learning fundamental linear algebra concepts, as well as improving test taking abilities. 
+\end{position}
+
+\employer{\textbf{Computer Science Grader}}
+\title{Spring 2011}
+\location{\emph{College of William and Mary Computer Science Department}}
+\dates{Williamsburg, VA}
+\begin{position}
+\vspace{-10pt}
+\begin{itemize}\setlength{\itemsep}{-0.5mm}
+\item[$\circ$] Graded student programming projects for memory management and algorithm efficiency. 
+\item[$\circ$] Provided feedback through detailed discussions of corrected errors and potential improvements to implementations and programming practices. 
+\item[$\circ$] Required coordination with Professor and class TAs, proficiency with memory management tools, and solid grasp of standard algorithms and C++. 
+\end{itemize}
+%Aid students having difficulty in the subject. Focus on both learning fundamental linear algebra concepts, as well as improving test taking abilities. 
+\end{position}
+
+\employer{\textbf{Computer Science Tutor}}
+\title{Summer 2009}
+\location{\emph{Self Employed}}
+\dates{McLean, VA}
+\begin{position}
+\vspace{-10pt}
+\begin{itemize}\setlength{\itemsep}{-0.5mm}
+\item[$\circ$] Aid students struggling in high school introductory and AP computer science courses. 
+\item[$\circ$] Demonstrate importance of both learning and understanding fundamental concepts, which build upon prior material as layed out by the course syllabus, as well as general test taking skills during individual, semiweekly meetings.
+\item[$\circ$] Focused on AB level topics with particular emphasis placed on fundamental data structures and object oriented programming.
+\end{itemize}
+%Aid students having difficulty in the subject. Focus on both learning fundamental linear algebra concepts, as well as improving test taking abilities. 
+\end{position}
+
+\employer{\textbf{SIRIS Intern}}
+\title{Summer 2008}
+\location{\emph{Smithsonian Institution}}
+\dates{Washington, DC}
+\begin{position}
+\vspace{-10pt}
+\begin{itemize}\setlength{\itemsep}{-0.5mm}
+\item[$\circ$] Wrote SQL scripts for a variety of different purposes.
+\item[$\circ$] Most notably created several scripts to collate work data for calculating pay roll.
+\end{itemize}
+%Aid students having difficulty in the subject. Focus on both learning fundamental linear algebra concepts, as well as improving test taking abilities. 
+\end{position}
+
+%%
+%% We use the same formatting for projects as for work experience
+%% Shown below is the formatting used previously
+%%
+%%  \begin{formatb}
+%%    \employer{l}\title{r}\\
+%%    \location{l}\dates{r}\\
+%%    \body\\
+%%  \end{formatb}
+%%
+%% 
+%%  Note that \location is now being used for non-location information
+%%
+
+
+\section{\textsc{Qualifications}}
+
+\begin{tabular}{l l l l l l l l l l l l l l l}
+Java/J2EE & \ \ & Haskell & \ \ & Microsoft SQL Server & \ \ & Git \\ 
+C \& \Cplusplus & \ \ & CUDA & \ \ & UNIX Shell Scripting & \ \ & Android Development \\
+Python & \ \ &  AMPL & \ \ & Windows PowerShell & \ \ &  \LaTeX \\
+XQuery/MarkLogic & \ \ & MATLAB & \ \ & Subversion & \ \ & SoapUI\\ 
+
+\end{tabular}
+
+\section{\textsc{Course Work}}
+
+\begin{tabular}{l l l l l}
+Algorithms & \ & Finite Automata & \ & Linear Programming \\ 
+Analysis of Algorithms & \ & Theory of Computation & \ & Abstract Algebra I\\ 
+Software Development & \ & Programming Languages & \ & Elementary Real Analysis\\ 
+Systems Programming & \ & Computer Organization & \ & Differential Equations \\ 
+GPU Programming &\ & Computer Architecture & \ & Applied Mathematics I \& II \\ 
+Machine Learning & \ & Adv. Computer Architecture & \ & Combinatorics \\
+Database Systems & \ & Computer/Network Security & \ & Number Theory
+\end{tabular}
+
+
+
+
+
+
+\section{\textsc{Projects}}
+
+\employer{\textbf{Machine Learning - Biometrics Robot Controller}}
+\title{Fall 2011}
+\location{\emph{College of William and Mary}}
+\dates{}
+\begin{position}
+\vspace{-10pt}\\
+\ \ \ The semester long project was to employ machine learning techniques in a large scale project develop a secure, speech-based controller for a robot that was built from Lego Mindstorm. The first task was to develop a speech recognition component, including voice activity detection, which alone should enable the navigation capability of the robot by recognizing commands such as "move forward" and "turn right". The second component was the development a speaker identification module, which should be able to recognize every team member by analyzing an arbitrary sentence spoken by the member, and reject a speaker outside the team. The final component was the development of a face recognition module, which should be able to recognize every team member by taking and analyzing a photo of the user, and reject a user outside the team. These modules were integrated into a secure, speech-based controller that is able to take a photo of the user, recognize the team member from the photo and his/her voice, and send the commands given by legal users to guide the robot to move.
+\end{position}
+
+\employer{\textbf{Systems Programming - Networked Nim}}
+\title{Spring 2011}
+\location{\emph{College of William and Mary}}
+\dates{}
+\begin{position}
+\vspace{-10pt} \\
+Systems Programming, taught in C, covers basic networking and includes a several week long cor-
+responding project designed to require the use of real world network programming techniques. The
+Networked Nim project asked for a robust implementation of the simple board game Nim over a net-
+work using both datagram and virtual circuit communication. Users anywhere on the internet would be
+able to connect and play a game of Nim together. The implementation included a client program, and
+two server programs. The client program would allow users to query the server for games in progress
+and waiting opponents, and also allow users to connect to the server and play games. The main server
+would handle clients, responding to queries and spawning game servers to manage individual games
+between clients.
+\end{position}
+
+\employer{\textbf{Software Development - Android Contact Manager}}
+\title{Fall 2010}
+\location{\emph{College of William and Mary}}
+\dates{}
+\begin{position}
+\vspace{-10pt} \\
+The final project assigned in Software Development was to design and implement a contact manager
+application for cell phones using the Android platform. In addition to common features such as auto-
+complete text fields, the application would activate upon receiving a phone call, perform an online
+Yellowpages phone number search, parse the webpage to collect contact information, and fill the fields
+for a new contact in case the user decided to add the new caller into the phone book.
+\end{position}
+
+\employer{\textbf{Algorithms - Closest Points Solver}}
+\title{Spring 2010}
+\location{\emph{College of William and Mary}}
+\dates{}
+\begin{position}
+\vspace{-10pt} \\
+Each semester, the Algorithms course assigns a semester-long project, using C++, to apply techniques
+and algorithms covered in class. The Closest Points project considered arbitrarily large data sets of
+unordered Cartesian coordinates and how to identify the pair that are closest to each other. The final
+program made use of several common sorts and a final divide and conquer algorithm to locate the
+closest points.
+\end{position}
+
+\employer{\textbf{McLeadership - Mentor Matching Program}}
+\title{Spring 2008 -- Spring 2009}
+\location{\emph{McLean High School}}
+\dates{}
+\begin{position}
+\vspace{-10pt}\\
+McLean High School created the McLeadership program in 2008. Incoming freshmen were matched
+with upperclassmen "mentors" based on common interests, languages, and cultural backgrounds. An-
+other student and I created a java application to identify the optimal match between each incoming
+freshman and possible mentors based on those criteria. Over the course of a year we developed a
+multithreaded algorithm to process student data and generate matches, and a graphical interface to
+manage student information and the algorithm.
+\end{position}
+
+\end{resume}
+\end{document}
